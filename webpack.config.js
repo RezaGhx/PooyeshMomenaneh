@@ -262,7 +262,7 @@ if (targer === "build") {
     devServer: {
       contentBase: path.resolve(__dirname, "dist"),
       compress: false,
-      port: 21001,
+      port: 7500,
       historyApiFallback: true,
       stats: "errors-only",
       hot: true,
